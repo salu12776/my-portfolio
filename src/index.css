@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #1f242d;
+  color: white;
+}
+
+/* Neon Glow Effects */
+.glow-text {
+  text-shadow: 0 0 10px #0ef;
+}
+.glow-box {
+  box-shadow: 0 0 1rem #0ef;
+}
